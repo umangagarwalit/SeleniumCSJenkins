@@ -14,8 +14,8 @@ namespace SeleniumAutomation
         {
             //Launch the chrome browser
 
-            string driverPath = @"C:\Users\umang\source\repos\SeleniumCSJenkins\SeleniumCSJenkins\drivers\";
-            IWebDriver driver = new ChromeDriver(driverPath);
+           // string driverPath = @"C:\Users\umang\source\repos\SeleniumCSJenkins\SeleniumCSJenkins\drivers\";
+            IWebDriver driver = new ChromeDriver();
            
 
             //Set the wait for 1sec
