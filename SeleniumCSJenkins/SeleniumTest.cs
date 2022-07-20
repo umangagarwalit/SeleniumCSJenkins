@@ -13,8 +13,6 @@ namespace SeleniumAutomation
         public void Test1()
         {
             //Launch the chrome browser
-
-           // string driverPath = @"C:\Users\umang\source\repos\SeleniumCSJenkins\SeleniumCSJenkins\drivers\";
             IWebDriver driver = new ChromeDriver();
            
 
